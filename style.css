@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    width: 100%;
+}
+.main{
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+.head_main{
+    margin: 50px 0 ;
+}
+h3{
+    margin: 50px 0 ;
+    font-size: 1.6rem;
+}
+p{
+    font-size: 1.3rem;
+}
+.color_box{
+    margin: 0 0 0 100px;
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box{
+    flex-shrink: 0;
+    height: 200px;
+    width: 200px;
+    border-radius: 50px;
+    border: 2px solid black;
+    cursor: pointer;
+}
+button{
+    border: none;
+    background-color: transparent;
+}
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.flash{
+    background-color: white;
+}
